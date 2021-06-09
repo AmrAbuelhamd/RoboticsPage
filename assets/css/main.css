@@ -1948,3 +1948,7 @@ textarea {
   width: 50px;
 
 }
+.link-class:link{
+  text-decoration: underline;
+  color: #1c7430;
+}
