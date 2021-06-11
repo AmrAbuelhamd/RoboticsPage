@@ -927,7 +927,6 @@ hr {
 
 .client-item-wrapper img {
   opacity: 0.5;
-  filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   filter: gray;
   transition: all .6s ease;
