@@ -9,7 +9,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="FACULTY OF INNOVATIVE TECHNOLOGIES">
-    <meta name="keywords" content="Information, Systems, and, Technologies, scholarship, international, students, Master’s, Program,  Computer, Engineering, Applied, AI, Robotics, TSU, Automated, Information, Systems, Data, Mining, Analysis, Integrated, Information, System, Mathematical, System, Modeling, Unmanned, Aerial, Systems, Robotics, Embedded, Systems, Digital, Twins, Computer, Assisted, Vision, System, Simulation, National, Research, Tomsk, State, University, UAV, Robot, Robots, Master, UGV, Unmanned, Ground, Aerial, Vehicles, Drone, Machine, Learning, Artificial, Intelligence, SLAM, Neural, Networks, FPGA, ROS, Gazebo, Control, Adaptive, Image, Recognition, Simulation, Autonomous, Navigation, IMU, Swarm">
+    <meta name="keywords"
+          content="Information, Systems, and, Technologies, scholarship, international, students, Master’s, Program,  Computer, Engineering, Applied, AI, Robotics, TSU, Automated, Information, Systems, Data, Mining, Analysis, Integrated, Information, System, Mathematical, System, Modeling, Unmanned, Aerial, Systems, Robotics, Embedded, Systems, Digital, Twins, Computer, Assisted, Vision, System, Simulation, National, Research, Tomsk, State, University, UAV, Robot, Robots, Master, UGV, Unmanned, Ground, Aerial, Vehicles, Drone, Machine, Learning, Artificial, Intelligence, SLAM, Neural, Networks, FPGA, ROS, Gazebo, Control, Adaptive, Image, Recognition, Simulation, Autonomous, Navigation, IMU, Swarm">
     <meta name="author" content="AH">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -35,6 +36,34 @@
     <link rel="shortcut icon" type="image/x-icon"
           href="https://res.cloudinary.com/dfroqma2b/image/upload/v1623254751/LogoRobotics_iiiv1y.png"/>
 
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '540967370605728');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=540967370605728&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
 
 </head>
 <body>
@@ -142,8 +171,12 @@
                             hours you will build your first robot and get acquainted with the process
                             of programming in Python.
                             Make your innovative ideas come true!</p>
-                        <a href="#contact" class="btn btn-common" style="width: 50%; height: 60px; font-size: 25px">Join
-                            for free</a>
+
+                        <a href="#contact" class="btn btn-common">
+                            <p style="font-size: 32px">Join for free</p>
+                        </a>
+
+
                     </div>
                 </div>
             </div>
@@ -1132,7 +1165,8 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-5 col-xs-12">
-                <p style="font-size: 8px"> &#169; Faculty of Computer Engineering, National Research Tomsk State University. </p>
+                <p style="font-size: 8px"> &#169; Faculty of Computer Engineering, National Research Tomsk State
+                    University. </p>
             </div>
         </div>
     </div>
